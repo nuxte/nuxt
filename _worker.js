@@ -93,7 +93,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'www.zula.ir';
+						url.hostname = 'aghayechodan.com';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
