@@ -93,7 +93,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'aghayechodan.com';
+						url.hostname = 'www.playbelline.com/c/cooking-games';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
